@@ -25,6 +25,11 @@ export const HabList = styled.ul`
   justify-content: center;
   list-style: none;
 
+  .ajuste {
+    margin-top: 48px;
+    height: 43px;
+  }
+
   li {
     margin-right: 36px;
 
@@ -36,7 +41,7 @@ export const HabList = styled.ul`
 
 export const Icone = styled.img`
   width: 100px;
-  height: auto;
+  height: 126px;
   margin-top: 18px;
   align-items: center;
 `

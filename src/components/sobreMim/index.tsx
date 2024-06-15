@@ -68,7 +68,7 @@ const SobreMim = () => {
               ganhando experiência em várias tecnologias através do curso da
               EBAC. Durante esse período, adquiri conhecimentos em{' '}
               <strong>
-                HTML, CSS, JavaScript, React, Redux, Less, Sass e Cypress
+                HTML, CSS, JavaScript, React, Redux, Less, Git, Sass e Cypress
               </strong>
               . Este aprendizado intensivo fortaleceu minhas habilidades em
               front-end e me proporcionou uma base sólida para continuar

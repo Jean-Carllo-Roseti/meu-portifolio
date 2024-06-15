@@ -13,6 +13,7 @@ import Sass from '../../assets/images/Sass.png'
 import Less from '../../assets/images/Less.png'
 import Gulp from '../../assets/images/gulp.png'
 import Grunt from '../../assets/images/Grunt.png'
+import Git from '../../assets/images/Git.png'
 
 import { HabContent, HabList, Icone } from './styles'
 
@@ -26,35 +27,43 @@ const Habilidades = () => {
           <HabList>
             <li>
               <p>HTML</p>
-              <Icone src={HTML} alt="" />
+              <Icone src={HTML} alt="imagem do logo tipo do html" />
             </li>
             <li>
               <p>CSS</p>
-              <Icone src={CSS} alt="" />
+              <Icone src={CSS} alt="imagem do logo tipo do css" />
             </li>
             <li>
               <p>JavaScript</p>
-              <Icone src={Escudo} alt="" />
+              <Icone src={Escudo} alt="imagem do logo tipo do javaScript" />
             </li>
             <li>
               <p>React</p>
-              <Icone src={RC} alt="" />
+              <Icone src={RC} alt="imagem do logo tipo do React" />
             </li>
             <li>
               <p>Redux</p>
-              <Icone src={RD} alt="" />
+              <Icone src={RD} alt="imagem do logo tipo do Redux" />
             </li>
             <li>
               <p>Cypress</p>
-              <Icone src={Cypress} alt="" />
+              <Icone src={Cypress} alt="imagem do logo tipo do Cypress" />
             </li>
             <li>
               <p>Sass</p>
-              <Icone src={Sass} alt="" />
+              <Icone src={Sass} alt="imagem do logo tipo do Sass" />
             </li>
             <li>
               <p>Less</p>
-              <Icone src={Less} alt="" />
+              <img
+                className="ajuste"
+                src={Less}
+                alt="imagem do logo tipo do Less"
+              />
+            </li>
+            <li>
+              <p>Git</p>
+              <Icone src={Git} alt="imagem do logo tipo do Git" />
             </li>
           </HabList>
         </div>
@@ -63,31 +72,31 @@ const Habilidades = () => {
           <HabList>
             <li>
               <p>Java</p>
-              <Icone src={Java} alt="" />
+              <Icone src={Java} alt="imagem do logo tipo do Java" />
             </li>
             <li>
               <p>Angular</p>
-              <Icone src={Ang} alt="" />
+              <Icone src={Ang} alt="imagem do logo tipo do Angular" />
             </li>
             <li>
               <p>MySql</p>
-              <Icone src={Sql} alt="" />
+              <Icone src={Sql} alt="Mysql" />
             </li>
             <li>
               <p>Gulp</p>
-              <Icone src={Gulp} alt="" className="ajuste" />
+              <Icone src={Gulp} alt="imagem do logo tipo do Gulp" />
             </li>
             <li>
               <p>Grunt</p>
-              <Icone src={Grunt} alt="" />
+              <Icone src={Grunt} alt="imagem do logo tipo do Grunt" />
             </li>
             <li>
               <p>BootStrap</p>
-              <Icone src={Boot} alt="" />
+              <Icone src={Boot} alt=" imagem do logo tipo do BootStrap" />
             </li>
             <li>
               <p>Jest</p>
-              <Icone src={Jest} alt="" />
+              <Icone src={Jest} alt="imagem do logo tipo do Jest" />
             </li>
           </HabList>
         </div>
