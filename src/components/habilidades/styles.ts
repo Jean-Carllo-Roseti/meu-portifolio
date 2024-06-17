@@ -5,6 +5,8 @@ export const HabContent = styled.div`
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
+  background-color: #c543;
+  border-radius: 16px;
 
   .ajuste {
     height: 126px;
@@ -12,6 +14,9 @@ export const HabContent = styled.div`
 
   h2 {
     margin: 32px 0;
+    background-color: red;
+    padding: 8px;
+    border-radius: 16px;
   }
 
   h3 {
@@ -32,6 +37,7 @@ export const HabList = styled.ul`
 
   li {
     margin-right: 36px;
+    margin-bottom: 24px;
 
     p {
       font-weight: bold;

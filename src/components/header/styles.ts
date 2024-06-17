@@ -19,8 +19,16 @@ export const Hlist = styled.ul`
 
   li {
     margin-left: 20px;
+
+    a {
+      padding: 4px 8px;
+      background-color: blue;
+      color: #fff;
+      border-radius: 8px;
+
+      &:hover {
+        background-color: #2f2f;
+      }
+    }
   }
 `
-// export const Hitem = styled.li`
-//   margin-left: 20px;
-// `

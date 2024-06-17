@@ -5,9 +5,15 @@ export const PortfolioContent = styled.div`
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
+  background-color: #d234;
+  border-radius: 16px;
+  padding-bottom: 24px;
 
   h2 {
     margin: 32px 0;
+    background-color: red;
+    padding: 8px;
+    border-radius: 16px;
   }
 `
 
@@ -84,4 +90,24 @@ export const CardsColunas = styled.div`
   display: flex;
   flex-wrap: wrap;
   justifycontent: space-around;
+`
+export const CardsVerMais = styled.div`
+  display: flex;
+  justifycontent: space-around;
+`
+
+export const ShowMoreButton = styled.button`
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: #45a049;
+  }
 `

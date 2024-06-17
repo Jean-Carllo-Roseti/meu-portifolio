@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const HContainer = styled.header`
   background-color: red;
   padding: 8px 0;
+  margin-top: 24px;
 `
 export const Hcontent = styled.div`
   display: flex;

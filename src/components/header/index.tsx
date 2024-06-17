@@ -7,7 +7,7 @@ const Header = () => {
         <h1>Jean Carllo</h1>
         <Hlist>
           <li>
-            <a href="#sobre">Sobre mim</a>
+            <a href="#sobre">Sobre </a>
           </li>
           <li>
             <a href="#habilidades">Habilidades</a>

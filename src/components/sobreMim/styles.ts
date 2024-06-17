@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const SbContainer = styled.div`
   background-color: blue;
   padding: 12px 0;
+  padding-bottom: 24px;
 
   h2 {
     text-align: center;
@@ -27,10 +28,14 @@ export const SbContent = styled.div`
 export const Descricao = styled.div`
   background-color: green;
   padding: 24px 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
 `
 export const Imagem = styled.div`
   padding: 8px 16px;
   background-color: yellow;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
 
   img {
     width: 280px;

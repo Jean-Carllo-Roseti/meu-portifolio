@@ -63,12 +63,12 @@ const Habilidades = () => {
             </li>
             <li>
               <p>Git</p>
-              <Icone src={Git} alt="imagem do logo tipo do Git" />
+              <Icone src={Git} alt="imagem do logo tipo do Git " />
             </li>
           </HabList>
         </div>
         <div>
-          <h3>Desenvolimento</h3>
+          <h3>Desenvolvimento</h3>
           <HabList>
             <li>
               <p>Java</p>
