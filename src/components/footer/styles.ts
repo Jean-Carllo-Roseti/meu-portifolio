@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const HContainer = styled.header`
-  background-color: red;
-  padding: 8px 0;
+  background-color: #365995;
+  padding: 54px 0;
   margin-top: 48px;
 `
 export const Hcontent = styled.div`

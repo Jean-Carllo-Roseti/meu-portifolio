@@ -12,21 +12,35 @@ export const PortfolioContent = styled.div`
   }
 
   h2 {
-    margin: 32px 0;
-    background-color: red;
+    text-align: center;
+    margin: 0 0 32px 0;
+    background-color: #c3d2eb;
     padding: 8px;
     border-radius: 16px;
+    color: #000;
   }
 `
 export const ParaStick = styled.div`
-  background-color: #d234;
+  padding: 16px;
+  background-color: #333333;
   border-radius: 16px;
   padding-bottom: 24px;
+
+  .maisUma {
+    padding: 16px;
+    background-color: #c3d2eb;
+    border-radius: 16px;
+  }
+
+  h3 {
+    color: #000;
+    margin-bottom: 12px;
+  }
 `
 
 export const ProjectCard = styled.div`
   padding: 16px;
-  background-color: #f9f9;
+  background-color: #333333;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 16px;
@@ -34,6 +48,7 @@ export const ProjectCard = styled.div`
   text-align: left;
   transition: transform 0.3s ease;
   width: calc(50% - 32px);
+  color: #000;
 
   @media (max-width: 768px) {
     width: auto;
@@ -51,7 +66,7 @@ export const ProjectImage = styled.img`
 `
 
 export const ProjectDetails = styled.div`
-  background-color: blue;
+  background-color: #7b94f1;
   border-radius: 8px;
   padding: 16px;
   margin-top: 8px;
@@ -88,7 +103,8 @@ export const ProjectLinks = styled.div`
     margin-right: 16px;
     text-decoration: none;
     color: #fff;
-    background-color: red;
+    background-color: #333333;
+
     padding: 8px;
     border-radius: 8px;
 
@@ -121,13 +137,14 @@ export const ShowMoreButton = styled.button`
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #4caf50;
-  color: white;
+  background-color: #333333;
+  color: #fff;
   border: none;
   border-radius: 4px;
+  width: 120px;
 
   &:hover {
-    background-color: #45a049;
+    background-color: #000;
   }
 `
 export const Inv = styled.div`

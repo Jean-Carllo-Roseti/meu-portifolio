@@ -6,7 +6,7 @@ export const SbContainer = styled.div`
   h2 {
     text-align: center;
     margin: 0 0 32px 0;
-    background-color: red;
+    background-color: #c3d2eb;
     padding: 8px;
     border-radius: 16px;
   }
@@ -16,7 +16,7 @@ export const SbOrganiza = styled.div`
   max-width: 1024px;
   margin: 0 auto;
   border-radius: 16px;
-  background-color: blue;
+  background-color: #333333;
   padding: 16px;
 `
 
@@ -28,7 +28,7 @@ export const SbContent = styled.div`
   }
 `
 export const Descricao = styled.div`
-  background-color: green;
+  background-color: #c3d2eb;
   padding: 24px 16px;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -41,14 +41,14 @@ export const Descricao = styled.div`
 `
 export const Imagem = styled.div`
   padding: 8px 16px;
-  background-color: green;
+  background-color: #c3d2eb;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
 
   @media (max-width: 768px) {
     padding: 24px 0;
     border-radius: 0;
-        border-top-right-radius: 16px;
+    border-top-right-radius: 16px;
     border-top-left-radius: 16px;
   }
 
@@ -57,6 +57,7 @@ export const Imagem = styled.div`
     height: 280px;
     border-radius: 80px;
     margin-bottom: 16px;
+    margin-top: 16px;
 
     @media (max-width: 768px) {
       display: flex;

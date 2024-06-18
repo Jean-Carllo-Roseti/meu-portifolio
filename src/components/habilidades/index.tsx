@@ -22,7 +22,7 @@ const Habilidades = () => {
     <HabContent>
       <UmaOutra>
         <h2>Habildiades</h2>
-        <div>
+        <div className="forte">
           <h3>Fortes</h3>
           <HabList>
             <li>
@@ -67,7 +67,7 @@ const Habilidades = () => {
             </li>
           </HabList>
         </div>
-        <div>
+        <div className="desenvolve">
           <h3>Desenvolvimento</h3>
           <HabList>
             <li>

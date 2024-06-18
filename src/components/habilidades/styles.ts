@@ -17,14 +17,28 @@ export const HabContent = styled.div`
   }
 `
 export const UmaOutra = styled.div`
-  background-color: #c543;
+  background-color: #333333;
   padding: 16px;
   border-radius: 16px;
 
   h2 {
-    background-color: red;
+    text-align: center;
+    margin: 0 0 32px 0;
+    background-color: #c3d2eb;
     padding: 8px;
     border-radius: 16px;
+  }
+
+  .forte {
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    background-color: #c3d2eb;
+  }
+
+  .desenvolve {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #c3d2eb;
   }
 `
 
@@ -43,15 +57,16 @@ export const HabList = styled.ul`
   li {
     margin-right: 36px;
     margin-bottom: 24px;
-    text-align: center; /* Centraliza o conteúdo dentro do <li> */
+    text-align: center;
 
     @media (max-width: 768px) {
       margin: 0;
     }
 
     p {
+      color: #fff;
       font-weight: bold;
-      background-color: green;
+      background-color: #333333;
       border-radius: 4px;
     }
   }
@@ -68,3 +83,5 @@ export const Icone = styled.img`
   margin-top: 18px;
   align-items: center;
 `
+// export const Radius = style.div`
+// `
