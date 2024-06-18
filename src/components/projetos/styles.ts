@@ -9,6 +9,10 @@ export const PortfolioContent = styled.div`
   border-radius: 16px;
   padding-bottom: 24px;
 
+  @media (max-width: 768px) {
+    display: block;
+  }
+
   h2 {
     margin: 32px 0;
     background-color: red;
@@ -26,7 +30,11 @@ export const ProjectCard = styled.div`
   overflow: hidden;
   text-align: left;
   transition: transform 0.3s ease;
-  width: calc(50% - 32px); // Adjust for two columns with spacing
+  width: calc(50% - 32px);
+
+  @media (max-width: 768px) {
+    width: auto;
+  }
 
   &:hover {
     transform: scale(1.05);
@@ -89,11 +97,19 @@ export const ProjectLinks = styled.div`
 export const CardsColunas = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justifycontent: space-around;
+  justify-content: space-around;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 export const CardsVerMais = styled.div`
   display: flex;
-  justifycontent: space-around;
+  justify-content: space-around;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 
 export const ShowMoreButton = styled.button`
@@ -117,7 +133,11 @@ export const Inv = styled.div`
   transition: max-height 1.5s ease-in-out;
 
   &.is-open {
-    max-height: 600px;
+    max-height: 1600px;
+
+    @media (max-width: 768px) {
+      max-height: auto;
+    }
   }
 
   .preencher {
