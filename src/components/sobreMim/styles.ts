@@ -30,7 +30,7 @@ export const Descricao = styled.div`
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
 
-  @media (max-width) {
+  @media (max-width: 768px) {
     border-radius: 0;
   }
 `
@@ -40,6 +40,11 @@ export const Imagem = styled.div`
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
 
+  @media (max-width: 768px) {
+    padding: 24px 0;
+    border-radius: 0;
+  }
+
   img {
     width: 280px;
     height: 280px;
@@ -47,6 +52,9 @@ export const Imagem = styled.div`
     margin-bottom: 16px;
 
     @media (max-width: 768px) {
+      display: flex;
+      justify-content: center;
+      aling-items center;
       margin: 16px auto;
     }
   }

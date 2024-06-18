@@ -66,7 +66,7 @@ const SobreMim = () => {
               Minha paixão pela tecnologia me levou a explorar o desenvolvimento
               de software. Desde o final de 2022, estou estudando programação,
               ganhando experiência em várias tecnologias através do curso da
-              EBAC. Durante esse período, adquiri conhecimentos em{' '}
+              EBAC. Durante esse período, adquiri conhecimentos em
               <strong>
                 HTML, CSS, JavaScript, React, Redux, Less, Git, Sass e Cypress
               </strong>
@@ -80,8 +80,9 @@ const SobreMim = () => {
               <br />
               <strong>
                 Soft Skills: Comunicação eficaz Trabalho em equipe Capacidade de
-                resolver problemas Evolução: Estudando Back-end com foco em
-                JavaScript
+                resolver problemas
+                <br />
+                <br /> Evolução: Estudando Back-end com foco em JavaScript
               </strong>
             </p>
           </Descricao>
