@@ -27,44 +27,19 @@ const Header = () => {
     }
   }, [])
 
-  const scrollToAnchor = (id: string) => {
-    const header = document.querySelector('header')
-    if (!header) return // Verifica se o header existe
-
-    const headerHeight = header.offsetHeight
-    const extraOffset = 20 // Espaçamento extra para garantir que o título não seja ocultado
-    const element = document.getElementById(id)
-    if (element) {
-      const offsetPosition = element.offsetTop - headerHeight - extraOffset
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      })
-    }
-  }
-
   return (
     <HContainer className={scrolled ? 'scrolled' : ''}>
       <Hcontent>
         <h1>Jean Carllo</h1>
         <Hlist>
           <li>
-            <a onClick={() => scrollToAnchor('sobre')} href="#sobre">
-              Sobre{' '}
-            </a>
+            <a href="#sobre">Sobre </a>
           </li>
           <li>
-            <a
-              onClick={() => scrollToAnchor('habilidades')}
-              href="#habilidades"
-            >
-              Habilidades
-            </a>
+            <a href="#habilidades">Habilidades</a>
           </li>
           <li>
-            <a onClick={() => scrollToAnchor('projetos')} href="#projetos">
-              Projetos
-            </a>
+            <a href="#projetos">Projetos</a>
           </li>
         </Hlist>
       </Hcontent>

@@ -49,7 +49,7 @@ const SobreMim = () => {
               >
                 <FaWhatsapp size={30} />
               </a>
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="/JeanEBAC.pdf" download rel="noopener noreferrer">
                 <FaFileAlt size={30} />
               </a>
             </Contatos>
@@ -75,14 +75,16 @@ const SobreMim = () => {
               evoluindo na área de programação.
               <br />
               <br />
-              <strong>Hard Skills: JavaScript Desenvolvimento Front-end</strong>
+              <strong>
+                Hard Skills: JavaScript Desenvolvimento Front-end.
+              </strong>
               <br />
               <br />
               <strong>
                 Soft Skills: Comunicação eficaz Trabalho em equipe Capacidade de
-                resolver problemas
+                resolver problemas.
                 <br />
-                <br /> Evolução: Estudando Back-end com foco em JavaScript
+                <br /> Evolução: Estudando Back-end com foco em JavaScript.
               </strong>
             </p>
           </Descricao>

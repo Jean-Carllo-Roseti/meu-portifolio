@@ -1,11 +1,12 @@
-import { HContainer, Hcontent, Hlist } from './styles'
+import { HContainer } from './styles'
 
 const Footer = () => {
   return (
     <HContainer>
-      <Hcontent>
-        <Hlist></Hlist>
-      </Hcontent>
+      <p>
+        Disponível para discutir novas idéias de projetos e inovaçoões. Entre em
+        contato.
+      </p>
     </HContainer>
   )
 }
