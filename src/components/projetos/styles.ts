@@ -87,6 +87,7 @@ export const TechList = styled.ul`
   flex-wrap: wrap;
 
   li {
+    margin-bottom: 8px;
     margin-right: 8px;
     background-color: #e1e1e1;
     border-radius: 4px;
@@ -101,7 +102,7 @@ export const ProjectLinks = styled.div`
 
   a {
     margin-right: 16px;
-    text-decoration: none;
+    text-align: center;
     color: #fff;
     background-color: #333333;
 
@@ -117,6 +118,7 @@ export const CardsColunas = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 16px;
 
   @media (max-width: 768px) {
     display: block;
@@ -153,7 +155,7 @@ export const Inv = styled.div`
   transition: max-height 1.5s ease-in-out;
 
   &.is-open {
-    max-height: 1600px;
+    max-height: 2000px;
 
     @media (max-width: 768px) {
       max-height: auto;

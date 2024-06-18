@@ -58,6 +58,7 @@ export const Imagem = styled.div`
     border-radius: 80px;
     margin-bottom: 16px;
     margin-top: 16px;
+    border: 4px solid #000;
 
     @media (max-width: 768px) {
       display: flex;

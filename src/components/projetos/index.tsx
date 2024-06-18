@@ -24,7 +24,7 @@ const principais = [
     title: 'Efood',
     image: Efood,
     description:
-      'Este projeto visa conectar os usuários a uma ampla rede de fornecedores de alimentos, incluindo restaurantes, lanchonetes e mercados. ',
+      'Este projeto visa conectar os usuários a uma ampla rede de fornecedores de alimentos, incluindo restaurantes, lanchonetes todos os estabeleciementos oferecem um serviço único. ',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://projeto6-parte1.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
@@ -46,7 +46,7 @@ const outros = [
     image: Trade,
     description:
       'Este projeto permite acumular pontos para trocar por diversos produtos  em uma ampla rede de parceiros. ',
-    technologies: ['HTML', 'CSS'],
+    technologies: ['HTML', 'CSS', 'BootStrap'],
     liveLink: 'https://trade-points.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
   },
@@ -63,7 +63,7 @@ const outros = [
     title: 'Marvel Fórum',
     image: Marvel,
     description:
-      'Este projeto promove convenções, leilões de produtos para fãs, jogos, comic cons e outras novidades  em uma ampla rede. ',
+      'Este projeto promove convenções, leilões de produtos para fãs, jogos, comic cons em uma ampla rede. ',
     technologies: ['HTML', 'CSS', 'BootStrap'],
     liveLink: 'https://marvelooutro.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
