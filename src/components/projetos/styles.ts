@@ -5,9 +5,7 @@ export const PortfolioContent = styled.div`
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
-  background-color: #d234;
-  border-radius: 16px;
-  padding-bottom: 24px;
+  padding-top: 38px;
 
   @media (max-width: 768px) {
     display: block;
@@ -19,6 +17,11 @@ export const PortfolioContent = styled.div`
     padding: 8px;
     border-radius: 16px;
   }
+`
+export const ParaStick = styled.div`
+  background-color: #d234;
+  border-radius: 16px;
+  padding-bottom: 24px;
 `
 
 export const ProjectCard = styled.div`

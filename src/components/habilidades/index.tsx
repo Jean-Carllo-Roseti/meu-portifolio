@@ -15,13 +15,13 @@ import Gulp from '../../assets/images/gulp.png'
 import Grunt from '../../assets/images/Grunt.png'
 import Git from '../../assets/images/Git.png'
 
-import { HabContent, HabList, Icone } from './styles'
+import { HabContent, HabList, Icone, UmaOutra } from './styles'
 
 const Habilidades = () => {
   return (
     <HabContent>
-      <h2>Habildiades</h2>
-      <div>
+      <UmaOutra>
+        <h2>Habildiades</h2>
         <div>
           <h3>Fortes</h3>
           <HabList>
@@ -100,7 +100,7 @@ const Habilidades = () => {
             </li>
           </HabList>
         </div>
-      </div>
+      </UmaOutra>
     </HabContent>
   )
 }

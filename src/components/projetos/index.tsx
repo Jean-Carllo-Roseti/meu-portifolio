@@ -14,7 +14,8 @@ import {
   CardsColunas,
   ShowMoreButton,
   CardsVerMais,
-  Inv
+  Inv,
+  ParaStick
 } from './styles'
 import { useState } from 'react'
 
@@ -78,44 +79,11 @@ const Projetos = () => {
 
   return (
     <PortfolioContent id="projetos">
-      <h2>Meus Projetos</h2>
-      <h3>Principais</h3>
-      <CardsColunas>
-        {principais.map((project, index) => (
-          <ProjectCard key={index}>
-            <ProjectImage src={project.image} alt={project.title} />
-            <ProjectDetails>
-              <h3>{project.title}</h3>
-              <p>{project.description}</p>
-              <TechList>
-                {project.technologies.map((tech, techIndex) => (
-                  <li key={techIndex}>{tech}</li>
-                ))}
-              </TechList>
-              <ProjectLinks>
-                <a
-                  href={project.liveLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Ver Projeto
-                </a>
-                <a
-                  href={project.repoLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Código Fonte
-                </a>
-              </ProjectLinks>
-            </ProjectDetails>
-          </ProjectCard>
-        ))}
-      </CardsColunas>
-      <Inv className={showMore ? 'is-open' : ''}>
-        <h3>Outros Projetos</h3>
-        <CardsVerMais>
-          {outros.map((project, index) => (
+      <ParaStick>
+        <h2>Meus Projetos</h2>
+        <h3>Principais</h3>
+        <CardsColunas>
+          {principais.map((project, index) => (
             <ProjectCard key={index}>
               <ProjectImage src={project.image} alt={project.title} />
               <ProjectDetails>
@@ -145,12 +113,46 @@ const Projetos = () => {
               </ProjectDetails>
             </ProjectCard>
           ))}
-        </CardsVerMais>
-      </Inv>
-
-      <ShowMoreButton onClick={handleShowMore}>
-        {showMore ? 'Ver menos' : 'Ver mais'}
-      </ShowMoreButton>
+        </CardsColunas>
+        <Inv className={showMore ? 'is-open' : ''}>
+          <h3>Outros Projetos</h3>
+          <CardsVerMais>
+            {outros.map((project, index) => (
+              <ProjectCard key={index}>
+                <ProjectImage src={project.image} alt={project.title} />
+                <ProjectDetails>
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <TechList>
+                    {project.technologies.map((tech, techIndex) => (
+                      <li key={techIndex}>{tech}</li>
+                    ))}
+                  </TechList>
+                  <ProjectLinks>
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Ver Projeto
+                    </a>
+                    <a
+                      href={project.repoLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Código Fonte
+                    </a>
+                  </ProjectLinks>
+                </ProjectDetails>
+              </ProjectCard>
+            ))}
+          </CardsVerMais>
+        </Inv>
+        <ShowMoreButton onClick={handleShowMore}>
+          {showMore ? 'Ver menos' : 'Ver mais'}
+        </ShowMoreButton>
+      </ParaStick>
     </PortfolioContent>
   )
 }

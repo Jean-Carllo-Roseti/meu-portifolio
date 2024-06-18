@@ -5,22 +5,26 @@ export const HabContent = styled.div`
   max-width: 1024px;
   margin: 0 auto;
   text-align: center;
-  background-color: #c543;
-  border-radius: 16px;
+
+  padding-top: 62px;
 
   .ajuste {
     height: 126px;
   }
 
+  h3 {
+    padding: 24px 0;
+  }
+`
+export const UmaOutra = styled.div`
+  background-color: #c543;
+  padding: 16px;
+  border-radius: 16px;
+
   h2 {
-    margin: 32px 0;
     background-color: red;
     padding: 8px;
     border-radius: 16px;
-  }
-
-  h3 {
-    margin: 24px 0;
   }
 `
 

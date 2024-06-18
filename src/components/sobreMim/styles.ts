@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
 export const SbContainer = styled.div`
-  background-color: blue;
-  padding: 12px 0;
-  padding-bottom: 24px;
+  padding-top: 58px;
 
   h2 {
     text-align: center;
-    margin: 16px 0;
+    margin: 0 0 32px 0;
+    background-color: red;
+    padding: 8px;
+    border-radius: 16px;
   }
 `
 export const SbOrganiza = styled.div`
@@ -15,6 +16,8 @@ export const SbOrganiza = styled.div`
   max-width: 1024px;
   margin: 0 auto;
   border-radius: 16px;
+  background-color: blue;
+  padding: 16px;
 `
 
 export const SbContent = styled.div`
@@ -32,17 +35,21 @@ export const Descricao = styled.div`
 
   @media (max-width: 768px) {
     border-radius: 0;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
   }
 `
 export const Imagem = styled.div`
   padding: 8px 16px;
-  background-color: yellow;
+  background-color: green;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
 
   @media (max-width: 768px) {
     padding: 24px 0;
     border-radius: 0;
+        border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
   }
 
   img {

@@ -2,11 +2,18 @@ import styled from 'styled-components'
 
 export const HContainer = styled.header`
   background-color: red;
-  padding: 8px 0;
+  position: sticky;
+  top: 0;
+  padding: 10px 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+  &.scrolled {
+    background-color: rgba(51, 51, 51, 0.8);
+  }
 
   @media (max-width: 768px) {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 44px;
   }
