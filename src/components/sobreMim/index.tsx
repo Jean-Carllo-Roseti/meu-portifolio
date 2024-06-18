@@ -56,11 +56,11 @@ const SobreMim = () => {
           </Imagem>
           <Descricao>
             <p>
-              Transitei da Engenharia Elétrica para a Programação, trazendoa
-              comigo um olhar crítico e analítico para a solução de problemas,
-              além de habilidades de coordenação e trabalho em equipe
-              desenvolvidas ao longo de 5 anos no setor de engenharia clínica em
-              hospitais.
+              Olá me chamo Jean Carllo. <br /> transitei da Engenharia Elétrica
+              para a Programação, trazendoa comigo um olhar crítico e analítico
+              para a solução de problemas, além de habilidades de coordenação e
+              trabalho em equipe desenvolvidas ao longo de 5 anos no setor de
+              engenharia clínica em hospitais.
               <br />
               <br />
               Minha paixão pela tecnologia me levou a explorar o desenvolvimento

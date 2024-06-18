@@ -20,9 +20,8 @@ export const SbOrganiza = styled.div`
 export const SbContent = styled.div`
   display: flex;
 
-  img {
-    width: 300px;
-    height: 400px;
+  @media (max-width: 768px) {
+    display: block;
   }
 `
 export const Descricao = styled.div`
@@ -30,6 +29,10 @@ export const Descricao = styled.div`
   padding: 24px 16px;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
+
+  @media (max-width) {
+    border-radius: 0;
+  }
 `
 export const Imagem = styled.div`
   padding: 8px 16px;
@@ -42,6 +45,10 @@ export const Imagem = styled.div`
     height: 280px;
     border-radius: 80px;
     margin-bottom: 16px;
+
+    @media (max-width: 768px) {
+      margin: 16px auto;
+    }
   }
 `
 export const Contatos = styled.div`

@@ -111,3 +111,16 @@ export const ShowMoreButton = styled.button`
     background-color: #45a049;
   }
 `
+export const Inv = styled.div`
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1.5s ease-in-out;
+
+  &.is-open {
+    max-height: 600px;
+  }
+
+  .preencher {
+    padding-right: 76px;
+  }
+`

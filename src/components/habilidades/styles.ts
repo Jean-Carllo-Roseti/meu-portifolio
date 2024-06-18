@@ -41,6 +41,8 @@ export const HabList = styled.ul`
 
     p {
       font-weight: bold;
+      background-color: green;
+      border-radius: 4px;
     }
   }
 `

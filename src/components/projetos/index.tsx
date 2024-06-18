@@ -13,7 +13,8 @@ import {
   ProjectLinks,
   CardsColunas,
   ShowMoreButton,
-  CardsVerMais
+  CardsVerMais,
+  Inv
 } from './styles'
 import { useState } from 'react'
 
@@ -45,7 +46,7 @@ const outros = [
     description:
       'Este projeto permite acumular pontos para trocar por diversos produtos  em uma ampla rede de parceiros. ',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://projeto6-parte1.vercel.app/',
+    liveLink: 'https://trade-points.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
   },
   {
@@ -54,7 +55,7 @@ const outros = [
     description:
       'Este projeto oferece produtos de cosméticos e higiene para o corpo em uma ampla rede de fornecedores.',
     technologies: ['React', 'Redux', 'Node.js'],
-    liveLink: 'https://amiibo-xi.vercel.app/',
+    liveLink: 'https://cosmetico.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
   },
   {
@@ -63,7 +64,7 @@ const outros = [
     description:
       'Este projeto promove convenções, leilões de produtos para fãs, jogos e comic cons em uma ampla rede. ',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    liveLink: 'https://projeto6-parte1.vercel.app/',
+    liveLink: 'https://marvelooutro.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
   }
 ]
@@ -111,43 +112,42 @@ const Projetos = () => {
           </ProjectCard>
         ))}
       </CardsColunas>
-      {showMore && (
-        <>
-          <h3>Outros Projetos</h3>
-          <CardsVerMais>
-            {outros.map((project, index) => (
-              <ProjectCard key={index}>
-                <ProjectImage src={project.image} alt={project.title} />
-                <ProjectDetails>
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
-                  <TechList>
-                    {project.technologies.map((tech, techIndex) => (
-                      <li key={techIndex}>{tech}</li>
-                    ))}
-                  </TechList>
-                  <ProjectLinks>
-                    <a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Ver Projeto
-                    </a>
-                    <a
-                      href={project.repoLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Código Fonte
-                    </a>
-                  </ProjectLinks>
-                </ProjectDetails>
-              </ProjectCard>
-            ))}
-          </CardsVerMais>
-        </>
-      )}
+      <Inv className={showMore ? 'is-open' : ''}>
+        <h3>Outros Projetos</h3>
+        <CardsVerMais>
+          {outros.map((project, index) => (
+            <ProjectCard key={index}>
+              <ProjectImage src={project.image} alt={project.title} />
+              <ProjectDetails>
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <TechList>
+                  {project.technologies.map((tech, techIndex) => (
+                    <li key={techIndex}>{tech}</li>
+                  ))}
+                </TechList>
+                <ProjectLinks>
+                  <a
+                    href={project.liveLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Ver Projeto
+                  </a>
+                  <a
+                    href={project.repoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Código Fonte
+                  </a>
+                </ProjectLinks>
+              </ProjectDetails>
+            </ProjectCard>
+          ))}
+        </CardsVerMais>
+      </Inv>
+
       <ShowMoreButton onClick={handleShowMore}>
         {showMore ? 'Ver menos' : 'Ver mais'}
       </ShowMoreButton>
