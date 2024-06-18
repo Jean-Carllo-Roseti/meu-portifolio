@@ -30,20 +30,31 @@ export const HabList = styled.ul`
   justify-content: center;
   list-style: none;
 
-  .ajuste {
-    margin-top: 48px;
-    height: 43px;
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
   }
 
   li {
     margin-right: 36px;
     margin-bottom: 24px;
+    text-align: center; /* Centraliza o conteúdo dentro do <li> */
+
+    @media (max-width: 768px) {
+      margin: 0;
+    }
 
     p {
       font-weight: bold;
       background-color: green;
       border-radius: 4px;
     }
+  }
+
+  .ajuste {
+    margin-top: 48px;
+    height: 43px;
   }
 `
 
