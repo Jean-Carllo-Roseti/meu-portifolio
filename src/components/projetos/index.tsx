@@ -24,7 +24,7 @@ const principais = [
     title: 'Efood',
     image: Efood,
     description:
-      'Este projeto visa conectar os usuários a uma ampla rede de fornecedores de alimentos, incluindo restaurantes, lanchonetes todos os estabeleciementos oferecem um serviço único. ',
+      'Este projeto visa conectar os usuários a uma ampla rede de fornecedores de alimentos, incluindo restaurantes, lanchonetes. Todos os estabeleciementos oferecem um serviço único. ',
     technologies: ['HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://projeto6-parte1.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
@@ -45,7 +45,7 @@ const outros = [
     title: 'TradePoints',
     image: Trade,
     description:
-      'Este projeto permite acumular pontos para trocar por diversos produtos  em uma ampla rede de parceiros. ',
+      'Este projeto permite acumular pontos para trocar por diversos produtos em uma ampla rede de parceiros. ',
     technologies: ['HTML', 'CSS', 'BootStrap'],
     liveLink: 'https://trade-points.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
@@ -54,7 +54,7 @@ const outros = [
     title: 'Santos Cosméticos',
     image: SantsoCosm,
     description:
-      'Este projeto oferece produtos de cosméticos e higiene para o corpo em uma ampla rede de fornecedores.',
+      'Este projeto oferece produtos de cosméticos e higiene pessoal em uma ampla rede de fornecedores.',
     technologies: ['HTML', 'CSS'],
     liveLink: 'https://cosmetico.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
@@ -63,7 +63,7 @@ const outros = [
     title: 'Marvel Fórum',
     image: Marvel,
     description:
-      'Este projeto promove convenções, leilões de produtos para fãs, jogos, comic cons em uma ampla rede. ',
+      'Este projeto promove leilões de produtos para fãs, jogos e comic cons em uma ampla rede. ',
     technologies: ['HTML', 'CSS', 'BootStrap'],
     liveLink: 'https://marvelooutro.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'

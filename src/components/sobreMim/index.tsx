@@ -57,7 +57,7 @@ const SobreMim = () => {
           <Descricao>
             <p>
               <strong>Olá me chamo Jean Carllo.</strong> <br /> transitei da
-              Engenharia Elétrica para a Programação, trazendoa comigo um olhar
+              Engenharia Elétrica para a Programação, trazendo comigo um olhar
               crítico e analítico para a solução de problemas, além de
               habilidades de coordenação e trabalho em equipe desenvolvidas ao
               longo de 5 anos no setor de engenharia clínica em hospitais.
@@ -81,8 +81,8 @@ const SobreMim = () => {
               <br />
               <br />
               <strong>
-                Soft Skills: Comunicação eficaz Trabalho em equipe Capacidade de
-                resolver problemas.
+                Soft Skills: Comunicação eficaz, Trabalho em equipe, Capacidade
+                de resolver problemas.
                 <br />
                 <br /> Evolução: Estudando Back-end com foco em JavaScript.
               </strong>
