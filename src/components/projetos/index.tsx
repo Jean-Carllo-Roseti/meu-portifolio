@@ -48,7 +48,7 @@ const outros = [
       'Este projeto permite acumular pontos para trocar por diversos produtos em uma ampla rede de parceiros. ',
     technologies: ['HTML', 'CSS', 'BootStrap'],
     liveLink: 'https://trade-points.vercel.app/',
-    repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
+    repoLink: 'https://github.com/Jean-Carllo-Roseti/tradePoints/tree/master'
   },
   {
     title: 'Santos Cosméticos',
@@ -57,7 +57,8 @@ const outros = [
       'Este projeto oferece produtos de cosméticos e higiene pessoal em uma ampla rede de fornecedores.',
     technologies: ['HTML', 'CSS'],
     liveLink: 'https://cosmetico.vercel.app/',
-    repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
+    repoLink:
+      'https://github.com/Jean-Carllo-Roseti/CssResponsivo/tree/Css_responsivo'
   },
   {
     title: 'Marvel Fórum',
@@ -66,7 +67,7 @@ const outros = [
       'Este projeto promove leilões de produtos para fãs, jogos e comic cons em uma ampla rede. ',
     technologies: ['HTML', 'CSS', 'BootStrap'],
     liveLink: 'https://marvelooutro.vercel.app/',
-    repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
+    repoLink: 'https://github.com/Jean-Carllo-Roseti/Marvel'
   }
 ]
 
