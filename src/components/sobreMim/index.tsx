@@ -56,7 +56,7 @@ const SobreMim = () => {
           </Imagem>
           <Descricao>
             <p>
-              <strong>Olá me chamo Jean Carllo.</strong> <br /> transitei da
+              <strong>Olá me chamo Jean Carllo.</strong> <br /> Transitei da
               Engenharia Elétrica para a Programação, trazendo comigo um olhar
               crítico e analítico para a solução de problemas, além de
               habilidades de coordenação e trabalho em equipe desenvolvidas ao
