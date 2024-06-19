@@ -25,7 +25,7 @@ const principais = [
     image: Efood,
     description:
       'Este projeto visa conectar os usuários a uma ampla rede de fornecedores de alimentos, incluindo restaurantes, lanchonetes. Todos os estabeleciementos oferecem um serviço único. ',
-    technologies: ['HTML', 'CSS', 'JavaScript'],
+    technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://projeto6-parte1.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/projeto6Parte1'
   },
@@ -34,7 +34,7 @@ const principais = [
     image: Amiibo,
     description:
       'Esta aplicação foi desenvolvida para oferecer uma consulta fácil sobre amiibos, fornecendo informações essenciais sobre cada lançamento e os jogos compatíveis.',
-    technologies: ['React', 'Redux', 'Node.js'],
+    technologies: ['React', 'HTML', 'CSS', 'JavaScript'],
     liveLink: 'https://amiibo-xi.vercel.app/',
     repoLink: 'https://github.com/Jean-Carllo-Roseti/Amiibo'
   }

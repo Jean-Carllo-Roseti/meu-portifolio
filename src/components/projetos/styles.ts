@@ -101,7 +101,6 @@ export const ProjectLinks = styled.div`
   justify-content: space-evenly;
 
   a {
-    margin-right: 16px;
     text-align: center;
     color: #fff;
     background-color: #333333;
