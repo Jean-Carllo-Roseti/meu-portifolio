@@ -66,11 +66,13 @@ const SobreMim = () => {
               Minha paixão pela tecnologia me levou a explorar o desenvolvimento
               de software. Desde o final de 2022, estou estudando programação,
               ganhando experiência em várias tecnologias através do curso da
-              EBAC. Durante esse período, adquiri conhecimentos em
+              EBAC. Durante esse período, adquiri conhecimentos em:
+              <br />
               <strong>
-                HTML, CSS, JavaScript, React, Redux, Less, Git, Sass e Cypress
+                HTML, CSS, JavaScript, React, Redux, Less, Git, Sass e Cypress.
               </strong>
-              . Este aprendizado intensivo fortaleceu minhas habilidades em
+              <br />
+              Este aprendizado intensivo fortaleceu minhas habilidades em
               front-end e me proporcionou uma base sólida para continuar
               evoluindo na área de programação.
               <br />
