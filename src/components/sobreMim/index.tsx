@@ -64,17 +64,18 @@ const SobreMim = () => {
               <br />
               <br />
               Minha paixão pela tecnologia me levou a explorar o desenvolvimento
-              de software. Desde o final de 2022, estou estudando programação,
-              ganhando experiência em várias tecnologias através do curso da
-              EBAC. Durante esse período, adquiri conhecimentos em:
+              de software. Desde o final de 2022, estou cursando programação na
+              Escola Britânica de Artes Criativas e Tecnologia -
+              <strong> EBAC</strong>. Durante esse período, adquiri
+              conhecimentos em:
               <br />
               <strong>
-                HTML, CSS, JavaScript, React, Redux, Less, Git, Sass e Cypress.
+                HTML, CSS, JavaScript, Less, Sass, React, Redux Git e Cypress.
               </strong>
               <br />
               Este aprendizado intensivo fortaleceu minhas habilidades em
               front-end e me proporcionou uma base sólida para continuar
-              evoluindo na área de programação.
+              evoluindo na área.
               <br />
               <br />
               <strong>
@@ -86,7 +87,8 @@ const SobreMim = () => {
                 Soft Skills: Comunicação eficaz, Trabalho em equipe, Capacidade
                 de resolver problemas.
                 <br />
-                <br /> Evolução: Estudando Back-end com foco em JavaScript.
+                <br /> Evolução: Back-End em Java, PostgreSQL, Hibernate, JUnit,
+                MongoDB e Spring Boot.
               </strong>
             </p>
           </Descricao>

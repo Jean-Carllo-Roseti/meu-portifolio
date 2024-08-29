@@ -5,7 +5,6 @@ import RC from '../../assets/images/rct.png'
 import RD from '../../assets/images/Redux.png'
 import Boot from '../../assets/images/BootStrap51.png'
 import Java from '../../assets/images/JAvi.webp'
-import Sql from '../../assets/images/newSql.svg'
 import Ang from '../../assets/images/novaAngular.png'
 import Cypress from '../../assets/images/cypress-icon.png'
 import Jest from '../../assets/images/jest.png'
@@ -14,6 +13,12 @@ import Less from '../../assets/images/Less.png'
 import Gulp from '../../assets/images/gulp.png'
 import Grunt from '../../assets/images/newGrunt.svg'
 import Git from '../../assets/images/Git_icon.svg'
+import Hibernate from '../../assets/images/hibernate2.svg'
+import PostegreSQL from '../../assets/images/PostgreSQL2.svg'
+import JUnit from '../../assets/images/JUnit2.svg'
+import MongoDB from '../../assets/images/mongodb2.svg'
+import SpringBoot from '../../assets/images/spring-boot.svg'
+import Gato from '../../assets/images/gatoServer.svg'
 
 import { HabContent, HabList, Icone, UmaOutra } from './styles'
 
@@ -21,7 +26,7 @@ const Habilidades = () => {
   return (
     <HabContent>
       <UmaOutra>
-        <h2>Habildiades</h2>
+        <h2>Habilidades</h2>
         <div className="forte">
           <h3>Fortes</h3>
           <HabList>
@@ -46,10 +51,6 @@ const Habilidades = () => {
               <Icone src={RD} alt="imagem do logo tipo do Redux" />
             </li>
             <li>
-              <p>Cypress</p>
-              <Icone src={Cypress} alt="imagem do logo tipo do Cypress" />
-            </li>
-            <li>
               <p>Sass</p>
               <Icone src={Sass} alt="imagem do logo tipo do Sass" />
             </li>
@@ -60,6 +61,18 @@ const Habilidades = () => {
                 src={Less}
                 alt="imagem do logo tipo do Less"
               />
+            </li>
+            <li>
+              <p>BootStrap</p>
+              <Icone src={Boot} alt=" imagem do logo tipo do BootStrap" />
+            </li>
+            <li>
+              <p>Cypress</p>
+              <Icone src={Cypress} alt="imagem do logo tipo do Cypress" />
+            </li>
+            <li>
+              <p>Jest</p>
+              <Icone src={Jest} alt="imagem do logo tipo do Jest" />
             </li>
             <li>
               <p>Git</p>
@@ -75,12 +88,32 @@ const Habilidades = () => {
               <Icone src={Java} alt="imagem do logo tipo do Java" />
             </li>
             <li>
-              <p>Angular</p>
-              <Icone src={Ang} alt="imagem do logo tipo do Angular" />
+              <p>JUnit</p>
+              <Icone src={JUnit} alt="imagem do logo tipo do JUnit" />
             </li>
             <li>
-              <p>MySql</p>
-              <Icone src={Sql} alt="Mysql" />
+              <p>Spring Boot</p>
+              <Icone src={SpringBoot} alt="imagem do logo tipo do Java" />
+            </li>
+            <li>
+              <p>Hibernate</p>
+              <Icone src={Hibernate} alt="imagem do logo tipo do Hibernate" />
+            </li>
+            <li>
+              <p>PostgreSQL</p>
+              <Icone src={PostegreSQL} alt="imagem do logo do PostgreeSQL" />
+            </li>
+            <li>
+              <p>MongoDB</p>
+              <Icone src={MongoDB} alt="imagem do logo tipo do MongoDB" />
+            </li>
+            <li>
+              <p>Tom Cat</p>
+              <Icone src={Gato} alt="imagem do logo tipo do MongoDB" />
+            </li>
+            <li>
+              <p>Angular</p>
+              <Icone src={Ang} alt="imagem do logo tipo do Angular" />
             </li>
             <li>
               <p>Gulp</p>
@@ -89,14 +122,6 @@ const Habilidades = () => {
             <li>
               <p>Grunt</p>
               <Icone src={Grunt} alt="imagem do logo tipo do Grunt" />
-            </li>
-            <li>
-              <p>BootStrap</p>
-              <Icone src={Boot} alt=" imagem do logo tipo do BootStrap" />
-            </li>
-            <li>
-              <p>Jest</p>
-              <Icone src={Jest} alt="imagem do logo tipo do Jest" />
             </li>
           </HabList>
         </div>
