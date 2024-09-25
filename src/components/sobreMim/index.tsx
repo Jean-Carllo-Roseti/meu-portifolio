@@ -43,7 +43,7 @@ const SobreMim = () => {
                 <FaEnvelope size={30} />
               </a>
               <a
-                href="https://wa.me/55513991166494"
+                href="https://wa.me/5513991166494"
                 target="_blank"
                 rel="noopener noreferrer"
               >
