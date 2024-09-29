@@ -97,16 +97,30 @@ export const TechList = styled.ul`
 
 export const ProjectLinks = styled.div`
   margin-top: 16px;
+  text-align: center;
   display: flex;
   justify-content: space-evenly;
+
+  .fullStack {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      margin: 0 6px;
+    }
+  }
 
   a {
     text-align: center;
     color: #fff;
     background-color: #333333;
-
     padding: 8px;
     border-radius: 8px;
+
+    @media (max-width: 768px) {
+      padding: 6px 4px;
+    }
 
     &:hover {
       background-color: #000;
@@ -157,7 +171,7 @@ export const Inv = styled.div`
     max-height: 2000px;
 
     @media (max-width: 768px) {
-      max-height: auto;
+      max-height: 2468px;
     }
   }
 

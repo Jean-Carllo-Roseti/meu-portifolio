@@ -7,6 +7,10 @@ export const HContainer = styled.header`
   text-align: center;
   color: #fff;
 
+  @media (max-width: 768px) {
+    padding: 54px 8px;
+  }
+
   p {
     font-weight: 700;
   }
